@@ -41,15 +41,15 @@ menu:
 
     - identifier: archives
       name: Archives
-      title: Archives
+      title: Blog
       url: /posts/
       weight: 2
 
-    - identifier: categories
-      name: Categories
-      title: Categories
-      url: /categories/
-      weight: 3
+#    - identifier: categories
+#      name: Categories
+#      title: Categories
+#      url: /categories/
+#      weight: 3
 
     - identifier: tags
       name: Tags
@@ -65,9 +65,9 @@ menu:
 
 
 params:
-  since: 2017
+  since: 2021
   dateFormatToUse: "2006-01-02"
-  enablePostCopyright: true
+  enablePostCopyright: false
   copyright_link: http://creativecommons.org/licenses/by/4.0/deed.zh
   # the directory under content folder that you want to render
   mainSections: ["posts"]
@@ -100,18 +100,17 @@ params:
     enabled: true # Whether to show profile bar
     avatar: avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-    author: xiaoheiAh
-    author_title: author title
+    author: Hasan Keklik
+    author_title: Software Engineer
     author_description: Good Good Study, Day Day Up~
-    location: Shanghai, China
-    follow: https://github.com/xiaoheiAh
+    location: Berlin, Germany
+    follow: https://hasankeklik.com
     # Social Links
     social:
       links:
-        github: https://github.com/xiaoheiAh
-        # weibo: http://weibo.com/{yourid}
-        # twitter: https://twitter.com/
-        # facebook: /
+        linkedin: https://www.linkedin.com/in/hasankeklik/
+        github: https://github.com/keklikhasan
+        twitter: https://twitter.com/keklikhasan
         rss: /index.xml
       link_tooltip: false # enable the social link tooltip, options: true, false
   # Site
@@ -121,9 +120,9 @@ params:
       width: 40
       height: 40
       url: favicon.ico
-    title: Hugo # 页面title
+    title: Hasan Keklik # 页面title
     favicon: favicon.ico
-    board: <p>enjoy~</p> # 公告牌
+    board: <p>Categories</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
@@ -197,8 +196,8 @@ params:
   # Sidebar only the following widgets. you can remove any you don't like it.
   widgets:
     - board
-    - tag_cloud
+#    - tag_cloud
     - category
-    - tag
-    - recent_posts
+#    - tag
+#    - recent_posts
 
